@@ -1,0 +1,12 @@
+POST http://localhost:7070/api/travelhelper/findroute
+Content-type: application/json
+
+
+{
+    "startStation": "Bagsværd St.",
+    "endStation": "Sortemosevej"
+
+
+}
+###
+GET http://localhost:7070/api/travelhelper/getallstationsforyourroute

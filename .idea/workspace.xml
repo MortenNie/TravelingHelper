@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d840e8ca-a890-4a37-b1d2-ced22d26f05a" name="Changes" comment="" />
+    <list default="true" id="d840e8ca-a890-4a37-b1d2-ced22d26f05a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dat/Main.java" afterDir="false" />
+    </list>
+    <list id="885c4cec-9326-42c3-8914-33cf56c03f34" name="Changes by freed" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dat/Main.java" afterDir="false" />
+    </list>
+    <list id="52999211-9ff8-4d9d-be26-12f5aad99aa5" name="Changes by jakob" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/dat/Main.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="7" changelist="885c4cec-9326-42c3-8914-33cf56c03f34" />
+        <range start1="3" end1="7" start2="8" end2="17" changelist="d840e8ca-a890-4a37-b1d2-ced22d26f05a" />
+        <range start1="9" end1="9" start2="19" end2="22" changelist="d840e8ca-a890-4a37-b1d2-ced22d26f05a" />
+      </ranges>
+    </file>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ZTwEpYseK7HiAEplvGFPvuzvLS" />
   <component name="ProjectViewState">
@@ -19,10 +52,65 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/sonig/Documents/Github/TravelingHelper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sonig\Documents\Github\TravelingHelper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dat.Main" />
+      <module name="TravelingHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelingHelperController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dat.TravelingHelperController" />
+      <module name="TravelingHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/dat/dev.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/dat/dev.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="HTTP Request.dev | #2" />
+        <item itemvalue="HTTP Request.dev | #1" />
+        <item itemvalue="Application.TravelingHelperController" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,7 +120,11 @@
       <option name="presentableId" value="Default" />
       <updated>1702459281169</updated>
       <workItem from="1702459282321" duration="13000" />
+      <workItem from="1702459429577" duration="15691000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
