@@ -4,9 +4,24 @@ Content-type: application/json
 
 {
     "startStation": "Bagsværd St.",
-    "endStation": "Sortemosevej"
+    "endStation": "Høje Taastrup St."
 
 
 }
 ###
 GET http://localhost:7070/api/travelhelper/getallstationsforyourroute
+###
+
+POST http://localhost:7070/api/travelhelper/findprice
+Content-type: application/json
+
+
+{
+  "startStation": "Bagsværd St.",
+  "endStation": "Høje Taastrup St."
+
+
+}
+###
+
+GET http://localhost:7070/api/travelhelper/price
