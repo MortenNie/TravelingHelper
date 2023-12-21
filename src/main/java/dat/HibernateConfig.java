@@ -1,6 +1,8 @@
 package dat;
 
 
+
+import dat.user.User;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.NoArgsConstructor;
 import org.hibernate.SessionFactory;
@@ -94,6 +96,7 @@ public class HibernateConfig {
 
 
     private static void getAnnotationConfiguration(Configuration configuration) {
+        configuration.addAnnotatedClass(User.class);
 
     }
 

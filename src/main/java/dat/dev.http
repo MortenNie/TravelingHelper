@@ -25,3 +25,25 @@ Content-type: application/json
 ###
 
 GET http://localhost:7070/api/travelhelper/price
+
+###
+
+POST http://localhost:7070/api/travelhelper/user/register
+Content-type: application/json
+
+{
+  "username": "test",
+  "password": "test"
+}
+
+> {% client.global.set("token", response.body.token); %}
+
+###
+
+POST http://localhost:7070/api/travelhelper/user/login
+Content-type: application/json
+
+{
+  "username": "test",
+  "password": "test"
+}

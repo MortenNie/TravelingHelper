@@ -10,7 +10,7 @@ public class TravelingHelperRoutes {
     public EndpointGroup getTravelHelperRoutes() {
         return () ->
                 path("/", () -> {
-                    post("/findroute", tvc.findRoute());
+                    post("findroute", tvc.findRoute());
                     post("findprice",  tvc.findPrice());
 
                     get("getallstationsforyourroute",tvc.getAllStationsForYourRoute());

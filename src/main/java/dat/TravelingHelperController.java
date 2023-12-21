@@ -45,6 +45,8 @@ public class TravelingHelperController {
             List<String> busRoute = fileIO.makeRoute40E(startStation, endStation);
             stationer.addAll(busRoute.stream().collect(Collectors.toList()));
 
+            ctx.res().setStatus(200);
+            ctx.json(busRoute);
 
         };
 
@@ -62,6 +64,9 @@ public class TravelingHelperController {
             double amountOfZones = zones.stream().distinct().count();
             double priceFinal = getTravelCost(amountOfZones);
             price = priceFinal;
+
+            ctx.res().setStatus(200);
+            ctx.json(priceFinal);
 
 
         };
